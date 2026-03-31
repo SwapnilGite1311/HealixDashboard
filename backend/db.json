@@ -1,0 +1,235 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "email": "admin@healix.com",
+      "password": "admin123",
+      "name": "Dr. Sarah Chen",
+      "role": "Admin",
+      "last_active": "2026-03-31T11:28:42.383Z"
+    },
+    {
+      "id": "u2",
+      "email": "doctor@healix.com",
+      "password": "doctor123",
+      "name": "Dr. James Okafor",
+      "role": "Doctor",
+      "last_active": "2026-03-31T07:30:00Z"
+    }
+  ],
+  "patients": [
+    {
+      "id": "p1",
+      "name": "Marcus Allen"
+    },
+    {
+      "id": "p2",
+      "name": "Priya Sharma"
+    },
+    {
+      "id": "p3",
+      "name": "Chen Wei"
+    },
+    {
+      "id": "p4",
+      "name": "Amara Diallo"
+    },
+    {
+      "id": "p5",
+      "name": "Lucas Ferreira"
+    },
+    {
+      "id": "p6",
+      "name": "Nadia Kovacs"
+    },
+    {
+      "id": "p7",
+      "name": "Tariq Hassan"
+    },
+    {
+      "id": "p8",
+      "name": "Yuki Tanaka"
+    },
+    {
+      "id": "p9",
+      "name": "Elena Vasquez"
+    },
+    {
+      "id": "p10",
+      "name": "Oliver Bennett"
+    },
+    {
+      "id": "e6e9b478-7e0a-4210-8ff5-db2f7ca1d1be",
+      "name": "Aba"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "a1",
+      "patient_id": "p1",
+      "patient_name": "Marcus Allen",
+      "doctor": "Dr. Sarah Chen",
+      "date": "2026-03-31T09:00:00Z",
+      "status": "Completed",
+      "notes": "Routine checkup"
+    },
+    {
+      "id": "a2",
+      "patient_id": "p2",
+      "patient_name": "Priya Sharma",
+      "doctor": "Dr. James Okafor",
+      "date": "2026-03-31T10:00:00Z",
+      "status": "Scheduled",
+      "notes": "Follow-up on blood work"
+    },
+    {
+      "id": "a3",
+      "patient_id": "p3",
+      "patient_name": "Chen Wei",
+      "doctor": "Dr. Sarah Chen",
+      "date": "2026-03-31T11:00:00Z",
+      "status": "Scheduled",
+      "notes": "Annual physical"
+    },
+    {
+      "id": "a6",
+      "patient_id": "p6",
+      "patient_name": "Nadia Kovacs",
+      "doctor": "Dr. Maya Patel",
+      "date": "2026-03-30T09:30:00Z",
+      "status": "Completed",
+      "notes": "Dermatology consult"
+    },
+    {
+      "id": "a7",
+      "patient_id": "p7",
+      "patient_name": "Tariq Hassan",
+      "doctor": "Dr. Sarah Chen",
+      "date": "2026-03-30T10:30:00Z",
+      "status": "Completed",
+      "notes": "Cardiology review"
+    },
+    {
+      "id": "a8",
+      "patient_id": "p8",
+      "patient_name": "Yuki Tanaka",
+      "doctor": "Dr. James Okafor",
+      "date": "2026-03-29T11:00:00Z",
+      "status": "Scheduled",
+      "notes": "Neurology consult"
+    },
+    {
+      "id": "a9",
+      "patient_id": "p9",
+      "patient_name": "Elena Vasquez",
+      "doctor": "Dr. Maya Patel",
+      "date": "2026-03-29T14:00:00Z",
+      "status": "Completed",
+      "notes": "Orthopedic follow-up"
+    },
+    {
+      "id": "a10",
+      "patient_id": "p10",
+      "patient_name": "Oliver Bennett",
+      "doctor": "Dr. Sarah Chen",
+      "date": "2026-03-28T09:00:00Z",
+      "status": "Cancelled",
+      "notes": "Emergency conflict"
+    },
+    {
+      "id": "a11",
+      "patient_id": "p1",
+      "patient_name": "Marcus Allen",
+      "doctor": "Dr. James Okafor",
+      "date": "2026-03-28T10:00:00Z",
+      "status": "Completed",
+      "notes": "Lab results review"
+    },
+    {
+      "id": "a12",
+      "patient_id": "p2",
+      "patient_name": "Priya Sharma",
+      "doctor": "Dr. Maya Patel",
+      "date": "2026-03-27T11:00:00Z",
+      "status": "Completed",
+      "notes": "Prenatal checkup"
+    },
+    {
+      "id": "a13",
+      "patient_id": "p3",
+      "patient_name": "Chen Wei",
+      "doctor": "Dr. Sarah Chen",
+      "date": "2026-03-26T09:00:00Z",
+      "status": "Scheduled",
+      "notes": "Thyroid screening"
+    },
+    {
+      "id": "a14",
+      "patient_id": "p4",
+      "patient_name": "Amara Diallo",
+      "doctor": "Dr. James Okafor",
+      "date": "2026-03-25T14:00:00Z",
+      "status": "Completed",
+      "notes": "General wellness"
+    },
+    {
+      "id": "a15",
+      "patient_id": "p5",
+      "patient_name": "Lucas Ferreira",
+      "doctor": "Dr. Maya Patel",
+      "date": "2026-03-24T10:00:00Z",
+      "status": "Completed",
+      "notes": "Physiotherapy"
+    }
+  ],
+  "activity_log": [
+    {
+      "id": "l1",
+      "message": "Dr. Sarah Chen signed in",
+      "timestamp": "2026-03-31T08:00:00Z",
+      "type": "auth"
+    },
+    {
+      "id": "l2",
+      "message": "Appointment added for Marcus Allen",
+      "timestamp": "2026-03-31T08:05:00Z",
+      "type": "create"
+    },
+    {
+      "id": "l3",
+      "message": "Appointment status updated to Completed",
+      "timestamp": "2026-03-31T09:15:00Z",
+      "type": "update"
+    },
+    {
+      "id": "12121225-549b-4ee7-a3a8-5957cb52cabd",
+      "message": "Appointment added for Aba",
+      "timestamp": "2026-03-31T11:08:00.510Z",
+      "type": "create"
+    },
+    {
+      "id": "c9e5d6ea-8e10-4935-9a24-2991049e4988",
+      "message": "Appointment deleted for Amara Diallo",
+      "timestamp": "2026-03-31T11:08:18.341Z",
+      "type": "delete"
+    },
+    {
+      "id": "7da20854-614b-4b4a-bc80-d9409fc80233",
+      "message": "Appointment deleted for Lucas Ferreira",
+      "timestamp": "2026-03-31T11:08:21.994Z",
+      "type": "delete"
+    },
+    {
+      "id": "489f6155-8f70-4752-9b18-4ae2a1d77817",
+      "message": "Appointment updated for Aba",
+      "timestamp": "2026-03-31T11:08:47.525Z",
+      "type": "update"
+    },
+    {
+      "id": "54a9ad8e-ce47-4c6f-9f98-6bf09f3a6793",
+      "message": "Appointment deleted for Aba",
+      "timestamp": "2026-03-31T11:08:53.157Z",
+      "type": "delete"
+    }
+  ]
+}
